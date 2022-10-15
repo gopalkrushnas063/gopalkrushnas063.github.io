@@ -688,6 +688,9 @@ h3.my-profession {
   }
 }
 @media (max-width: 393px) {
+  .about .about-content .personal-info .info-item p {
+    font-size: 14px;
+  }
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
