@@ -711,4 +711,8 @@ h3.my-profession {
   .tech-item img:hover {
     transform: scale(1.5);
   }
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
