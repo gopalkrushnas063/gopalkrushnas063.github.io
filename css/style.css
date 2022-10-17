@@ -542,25 +542,16 @@ h3.my-profession {
 .tech-item img:hover {
   transform: scale(1.5);
 }
-#calenderDiv {
-  background-color: white;
-  color: black;
-  width: 100%;
-  margin: 5% auto auto;
-  padding: 1.5% 2%;
-  border-radius: 10px;
-}
-#calenderDiv img{
-  width: 100%;
+.calendar{
+  color: green;
 }
 #gitStatis{
   display: flex;
-  width: 80%;
+  width: 100%;
   margin: auto;
   justify-content: space-between;
   margin-top: 60px;
   margin-bottom: 70px;
-  gap: 30px;
 }
 
 /* portfolio */
@@ -679,6 +670,11 @@ h3.my-profession {
 }
 
 @media (max-width: 1199px) {
+  #gitStatis{
+    display: flex;
+    width: 50%;
+    margin-bottom: 70px;
+  }
   .section .container{
     padding-top: 70px;
   }
@@ -746,8 +742,10 @@ h3.my-profession {
 @media (max-width: 767px) {
   #gitStatis{
     display: grid;
-    gap: 20px;
+    width: 70%;
     
+    /* margin-top: 60px; */
+    margin-bottom: 80px;
   }
   #gitStatis img{
     width: 100%;
