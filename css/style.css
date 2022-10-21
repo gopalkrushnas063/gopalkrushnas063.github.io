@@ -288,7 +288,7 @@ h3.hello {
   margin: 15px 0;
 }
 h3.hello span {
-  font-family: "Times New Romania", cursive;
+  font-family: "Times New Romania";
   font-size: 30px;
   font-weight: 700;
   color: var(--skin-color);
