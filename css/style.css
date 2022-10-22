@@ -578,12 +578,49 @@ h3.my-profession {
   border: 6px solid var(--bg-black-100);
   border-radius: 10px;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
+}
+.project_techstak{
+  display: flex;
+
+}
+.project_techstak img{
+  width: 20%;
+  margin: auto;
+}
+.project_headline{
+  color: rgb(26, 26, 66);
+}
+.project_btn{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.project_btn div{
+  width: 30%;
+  height: 40px;
+  text-align: center;
+  font-size: 25px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+}
+.project_btn div:hover{
+  transition: 0.5s all ease-in-out;
+  background-color: lightcoral;
+
+}
+hr{
+  width: 75%;
+  height: 4px;
+  background-color: black;
+  margin: auto;
 }
 
 /* contact */
