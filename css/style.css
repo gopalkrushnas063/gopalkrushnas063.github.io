@@ -543,8 +543,15 @@ h3.my-profession {
   transform: scale(1.5);
 }
 .calendar{
-  color: green;
+  color: var(--text-black-700);
 }
+.contrib-number{
+  color: var(--text-black-700);
+}
+.calender-title{
+  color: var(--text-black-700);
+}
+
 #gitStatis{
   display: flex;
   width: 100%;
@@ -572,6 +579,11 @@ h3.my-profession {
   flex: 0 0 33%;
   max-width: 33%;
   margin-bottom: 30px;
+  transition: 0.5s all ease-in-out;
+}
+.portfolio .portfolio-item:hover{
+  transform: scale(1.1);
+  cursor: default;
 }
 
 .portfolio .portfolio-item-inner {
@@ -584,6 +596,7 @@ h3.my-profession {
   width: 100%;
   display: block;
 }
+
 .project_techstak{
   display: flex;
 
@@ -591,9 +604,21 @@ h3.my-profession {
 .project_techstak img{
   width: 20%;
   margin: auto;
+  transition: 0.5s all ease-in-out;
+}
+.project_techstak img:hover{
+  transform: scale(1.5);
 }
 .project_headline{
   color: rgb(26, 26, 66);
+  color: var(--text-black-700);
+}
+.project_desc{
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: var(--text-black-700);
 }
 .project_btn{
   margin-top: 20px;
@@ -610,11 +635,13 @@ h3.my-profession {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: pointer;
+  transition: 0.5s all ease-in-out;
+  color: var(--text-black-700);
 }
 .project_btn div:hover{
-  transition: 0.5s all ease-in-out;
+  /* transition: 0.5s all ease-in-out; */
   background-color: lightcoral;
-
+  transform: scale(1.5);
 }
 hr{
   width: 75%;
