@@ -49,19 +49,19 @@ ul {
   overflow-x: hidden;
   transition: all 0.3s ease;
 }
-.section.back-section{
+.section.back-section {
   z-index: 1;
 }
-.section.active{
+.section.active {
   z-index: 2;
   opacity: 1;
   animation: slideSection 1s ease;
 }
-@keyframes slideSection{
-  0%{
+@keyframes slideSection {
+  0% {
     transform: translateX(100%);
   }
-  100%{
+  100% {
     transform: translateX(0%);
   }
 }
@@ -169,7 +169,6 @@ ul {
   font-size: 30px;
   letter-spacing: 5px;
   position: relative;
-  
 }
 
 .aside .logo a::before {
@@ -216,7 +215,7 @@ ul {
   display: inline-block;
   position: relative;
 }
-.aside .nav-toggler.open span{
+.aside .nav-toggler.open span {
   background-color: transparent;
 }
 .aside .nav-toggler span::before {
@@ -228,10 +227,9 @@ ul {
   top: -6px;
   left: 0;
 }
-.aside .nav-toggler.open span::before{
+.aside .nav-toggler.open span::before {
   transform: rotate(45deg);
   top: 0;
-
 }
 .aside .nav-toggler span::after {
   content: "";
@@ -242,10 +240,9 @@ ul {
   top: 6px;
   left: 0;
 }
-.aside .nav-toggler.open span::after{
+.aside .nav-toggler.open span::after {
   transform: rotate(-45deg);
   top: 0;
-  
 }
 .aside .nav {
   margin-top: 50px;
@@ -389,7 +386,6 @@ h3.my-profession {
   margin-top: 30px;
 }
 .about .about-content .personal-info .buttons .btn {
-  
   margin-top: 10px;
 }
 .about .about-content .skills {
@@ -542,17 +538,17 @@ h3.my-profession {
 .tech-item img:hover {
   transform: scale(1.5);
 }
-.calendar{
+.calendar {
   color: var(--text-black-700);
 }
-.contrib-number{
+.contrib-number {
   color: var(--text-black-700);
 }
-.calender-title{
+.calender-title {
   color: var(--text-black-700);
 }
 
-#gitStatis{
+#gitStatis {
   display: flex;
   width: 100%;
   margin: auto;
@@ -581,7 +577,7 @@ h3.my-profession {
   margin-bottom: 30px;
   transition: 0.5s all ease-in-out;
 }
-.portfolio .portfolio-item:hover{
+.portfolio .portfolio-item:hover {
   transform: scale(1.1);
   cursor: default;
 }
@@ -597,36 +593,35 @@ h3.my-profession {
   display: block;
 }
 
-.project_techstak{
+.project_techstak {
   display: flex;
-
 }
-.project_techstak img{
+.project_techstak img {
   width: 20%;
   margin: auto;
   transition: 0.5s all ease-in-out;
 }
-.project_techstak img:hover{
+.project_techstak img:hover {
   transform: scale(1.5);
 }
-.project_headline{
+.project_headline {
   color: rgb(26, 26, 66);
   color: var(--text-black-700);
 }
-.project_desc{
+.project_desc {
   text-align: justify;
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
   color: var(--text-black-700);
 }
-.project_btn{
+.project_btn {
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
   justify-content: space-around;
 }
-.project_btn div{
+.project_btn div {
   width: 30%;
   height: 40px;
   text-align: center;
@@ -638,12 +633,12 @@ h3.my-profession {
   transition: 0.5s all ease-in-out;
   color: var(--text-black-700);
 }
-.project_btn div:hover{
+.project_btn div:hover {
   /* transition: 0.5s all ease-in-out; */
   background-color: lightcoral;
   transform: scale(1.5);
 }
-hr{
+hr {
   width: 75%;
   height: 4px;
   background-color: black;
@@ -734,35 +729,35 @@ hr{
 }
 
 @media (max-width: 1199px) {
-  #gitStatis{
+  #gitStatis {
     display: flex;
     width: 50%;
     margin-bottom: 70px;
   }
-  .section .container{
+  .section .container {
     padding-top: 70px;
   }
-  #gitStatis{
+  #gitStatis {
     display: grid;
     gap: 20px;
   }
   .aside {
     left: -270px;
   }
-  .aside.open{
+  .aside.open {
     left: 0;
   }
-  .aside .nav-toggler{
+  .aside .nav-toggler {
     display: flex;
     left: 30px;
   }
-  .aside .nav-toggler.open{
+  .aside .nav-toggler.open {
     left: 300px;
   }
-  .section{
+  .section {
     left: 0;
   }
-  .section.open{
+  .section.open {
     left: 270px;
   }
   .about .about-content .personal-info .info-item p span {
@@ -797,21 +792,53 @@ hr{
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-top: 80%;
   }
   .home .home-img {
-    display: none;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    margin-left: 25%;
+    margin-top: 20%;
+  }
+  .home-img::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: -20px;
+    bottom: -40px;
+  }
+  
+  .home-img::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: -20px;
+    top: -25px;
+  }
+  .home .home-img img {
+    width: 100%;
+    height: auto;
   }
 }
 
 @media (max-width: 767px) {
-  #gitStatis{
+  #gitStatis {
     display: grid;
     width: 70%;
-    
+
     /* margin-top: 60px; */
     margin-bottom: 80px;
   }
-  #gitStatis img{
+  #gitStatis img {
     width: 100%;
   }
   .about .about-content .personal-info .info-item p span {
