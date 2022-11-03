@@ -792,13 +792,13 @@ hr {
   .home .home-info {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-top: 80%;
+    margin-top: 90%;
   }
   .home .home-img {
     flex: 0 0 50%;
     max-width: 50%;
     text-align: center;
-    position: fixed;
+    position: absolute;
     top: 0;
     margin-left: 25%;
     margin-top: 20%;
@@ -821,7 +821,7 @@ hr {
     width: 50px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);
-    left: -20px;
+    left: -25px;
     top: -25px;
   }
   .home .home-img img {
