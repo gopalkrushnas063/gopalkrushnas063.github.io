@@ -903,4 +903,43 @@ hr {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .home .home-info {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 90%;
+  }
+  .home .home-img {
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  .home-img::after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: -20px;
+    bottom: -40px;
+  }
+  
+  .home-img::before {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: -25px;
+    top: -25px;
+  }
+  .home .home-img img {
+    width: 100%;
+    height: auto;
+  }
 }
