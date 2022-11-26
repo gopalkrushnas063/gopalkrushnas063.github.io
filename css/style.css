@@ -736,6 +736,7 @@ hr {
     width: 50%;
     margin-bottom: 70px;
   }
+
   .section .container {
     padding-top: 70px;
   }
@@ -776,6 +777,9 @@ hr {
   .portfolio .portfolio-item {
     flex: 0 0 50%;
     max-width: 50%;
+  }
+  .main-content{
+    padding-left: 0px;
   }
   .tech-container {
     display: grid;
