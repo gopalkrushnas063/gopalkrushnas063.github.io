@@ -949,3 +949,35 @@ hr {
     height: auto;
   }
 }
+
+/* Scroll up  */
+.scroll-up {
+  position: fixed;
+  right: 0%;
+  bottom: 3%;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 30px;
+}
+
+.up-arrow {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+ /* Social */
+ .socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0%;
+  bottom: 30%;
+  cursor: pointer;
+  width: 50px;
+}
+
+.socials img{
+  width: 100%;
+  border-radius: 10px;
+}
