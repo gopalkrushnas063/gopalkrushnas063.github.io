@@ -518,7 +518,7 @@ h3.my-profession {
 
 .tech-container {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
   justify-content: center;
   align-items: center;
@@ -530,6 +530,7 @@ h3.my-profession {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 12px;
   margin: auto;
+  padding-bottom: 10px;
 }
 .tech-item img {
   width: 100%;
@@ -539,6 +540,13 @@ h3.my-profession {
 
 .tech-item img:hover {
   transform: scale(1.5);
+}
+
+.techstack_name{
+  text-align: center;
+  color: var(--text-black-900);
+  font-weight: bolder;
+  font-size: 14px;
 }
 .calendar {
   color: var(--text-black-700);
