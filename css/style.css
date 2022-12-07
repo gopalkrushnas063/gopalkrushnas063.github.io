@@ -513,6 +513,7 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
+
 /* skills */
 
 .tech-container {
@@ -641,7 +642,8 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 a:link, a:visited {
-  color: white;
+  color: var(--text-black-700);
+  font-weight: bold;
   text-decoration: none;
 }
 .project_btn div:hover {
