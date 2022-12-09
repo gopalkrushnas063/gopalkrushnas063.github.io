@@ -789,6 +789,16 @@ hr {
 }
 
 @media (max-width: 991px) {
+
+  h3.my-profession {
+    font-size: 30px;
+    margin: 15px 0;
+    position: absolute;
+  }
+  h3.my-profession+p{
+    margin-top: 140px;
+  }
+
   .about .about-content .personal-info .info-item p span {
     font-size: 14px;
   }
