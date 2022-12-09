@@ -650,7 +650,7 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 a:link, a:visited {
-  color: var(--text-black-700);
+  color: var(--bg-black-100);
   font-weight: bold;
   text-decoration: none;
 }
