@@ -1,9 +1,9 @@
 /* typing animation*/
 
 var typed = new Typed(".typing", {
-  strings: ["", "and","Web Developer"],
-  typeSpeed: 50,
-  BackSpeed: 20,
+  strings: ["", "and","Web Developer","Java Backend Developer"],
+  typeSpeed: 60,
+  BackSpeed: 60,
   loop: true,
 });
 
