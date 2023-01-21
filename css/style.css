@@ -513,6 +513,12 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
+#link_color1{
+  color: var(--text-black-900);
+}
+#link_color2{
+  color: var(--text-black-900);
+}
 
 /* skills */
 
